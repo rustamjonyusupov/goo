@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+    display: flex;
+}
+.continer  {
+    width: 20%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1060px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+button {
+    width: 30%;
+    height: 30px;
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+button:active {
+    border-bottom: 1px solid black;
+    background: rgb(172, 76, 181);
+    /* color: rgb(69, 69, 201); */
+}
+button:hover {
+    background: rgb(28, 28, 209);
+    /* color: rgb(89, 89, 169); */
+}
+.box {
+    font-family: sans-serif;
+    font-size: 100px;
+    align-items: center;
+    margin-top: 50px;
+}
+.text {
+    margin-top: 30px;
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.luky {
+    display: flex;
+    text-align: center;
+    width: 15%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 500px;
+    
+
+}
+.ol {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    width: 20%;
+    padding: 10px 20px;
+}
+.sam {
+    text-align: center;
+    margin-top: 25px;
+}
+
